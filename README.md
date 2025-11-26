@@ -24,19 +24,19 @@ library(mygem)
 
 # Prepare input data with genomic variants
 variants <- data.frame(
-  CHR_bbj = c("14", "12", "16"),
-  POS_bbj = c(37385687, 57146069, 53813450),
-  EA_bbj = c("C", "G", "T"),
-  OA_bbj = c("T", "T", "A")
+  CHR = c("14", "12", "16"),
+  POS = c(37385687, 57146069, 53813450),
+  EA = c("C", "G", "T"),
+  OA = c("T", "T", "A")
 )
 
 # Retrieve rsID information
 results <- get_rsid(
   input_df = variants,
-  chr_col = "CHR_bbj",
-  pos_col = "POS_bbj",
-  a1_col = "EA_bbj",
-  a2_col = "OA_bbj",
+  chr_col = "CHR",
+  pos_col = "POS",
+  a1_col = "EA",
+  a2_col = "OA",
   batch_size = 1000
 )
 ```
