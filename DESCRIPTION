@@ -3,7 +3,7 @@ Type: Package
 Title: Tools for Genetic and Bioinformatics Analysis
 Version: 0.0.1
 Author: Yuanlin Mou [aut, cre]
-Maintainer: Yuanlin Mou <your_email@example.com>
+Maintainer: Yuanlin Mou <yuanlinm@example.com>
 Description: Provides functions for genetic and bioinformatics analysis,
     including rsID retrieval based on genomic coordinates and alleles.
 License: MIT
